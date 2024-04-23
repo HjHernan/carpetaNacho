@@ -1,0 +1,102 @@
+/* Reset de estilos para elementos HTML */
+
+/* Resetea los márgenes y el padding */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Resetea el estilo de los elementos de lista */
+ol, ul {
+    list-style: none;
+}
+
+/* Resetea el estilo de los elementos de anclaje */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegura que los elementos en línea se comporten como esperado */
+* {
+    box-sizing: border-box;
+}
+
+/* Corrige el tamaño predeterminado de algunos elementos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Limpia los márgenes del cuerpo y asegura que el cuerpo tenga el tamaño completo del viewport */
+body {
+    line-height: 1;
+}
+
+/* Limpia el espacio reservado para los objetos multimedia */
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+/* Resetea el comportamiento del botón */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Corrige el comportamiento de los botones */
+button, input {
+    overflow: visible;
+}
+
+/* Corrige el estilo de los elementos que pueden ser mostrados como bloques */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+/* Restablece el espacio entre los elementos */
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Elimina la apariencia predeterminada de los elementos de formulario en algunos navegadores */
+input[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+/* Corrige los bordes de los botones en Safari */
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/* Corrige el padding irregular en Firefox */
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Restablece el estilo de los elementos de tabla en los navegadores */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
